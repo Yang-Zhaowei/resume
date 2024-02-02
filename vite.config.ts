@@ -6,7 +6,7 @@ const config: UserConfig = {
   plugins: [react(), ssr({
     prerender: true
   })],
-  base: './',
+  base: '/resume/'
 }
 
 export default config
