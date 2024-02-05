@@ -14,10 +14,10 @@ function PageShell({ children, pageContext }: { children: React.ReactNode; pageC
         <Layout>
           <Sidebar>
             <Logo />
-            <Link className="navitem" href="/">
+            <Link className="navitem" href="resume/">
               Home
             </Link>
-            <Link className="navitem" href="/about">
+            <Link className="navitem" href="resume/about">
               About
             </Link>
           </Sidebar>
